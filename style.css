@@ -7,7 +7,7 @@
 body {
   font-family: "Karla", sans-serif;
   font: 16px;
-  color: #2e344a;
+  color: #008367;
   background-color: #fff;
   transition: all 0.5s ease;
 }
@@ -101,13 +101,13 @@ nav {
   padding-right: 200px;
 }
 
-.topic {
+/* .topic {
   margin: auto;
   min-height: 8vh;
   align-items: center;
   font-weight: 400;
   font-size: 1.1rem;
-}
+} */
 
 .services {
   width: 80%;
@@ -127,7 +127,7 @@ nav {
 
 .underline-active {
   padding: 0 0 2rem 0;
-  border-bottom: 5px solid #000;
+  border-bottom: 5px solid #008367;
   font-size: 28pt;
   font-weight: 400;
 }
@@ -139,7 +139,7 @@ nav {
 .projects {
   /* background-color: #eeb8c1; */
   width: 100%;
-  min-height: 50vh;
+  min-height: 70vh;
 }
 
 .project-cta {
@@ -169,11 +169,12 @@ nav {
   z-index: -1;
 }
 
-.topic-projects {
+.topic {
   width: 80%;
   margin: auto;
   padding: 50px;
   padding-left: 0px;
+  font-size: 20px;
 }
 
 .content-project {
@@ -217,5 +218,129 @@ nav {
 } */
 
 .bg-active {
-  background-color: #eeb8c1;
+  background-color: #008367;
+  color: #fff;
+}
+
+.ideas {
+  min-height: 80vh;
+}
+
+.posts {
+  min-height: 80vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.content img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.posts-title,
+.posts-summary,
+.author {
+  padding-bottom: 30px;
+}
+
+.posts-title {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.posts-summary {
+  font-size: 18px;
+  line-height: 1.8rem;
+}
+
+.author {
+  padding-bottom: 50px;
+}
+
+.footer {
+  display: flex;
+  width: 80%;
+  min-height: 50vh;
+  margin: auto;
+  align-items: center;
+}
+
+.footer-addr {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding-right: 90px;
+}
+
+.footer-nav {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.footer-left {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.footer-items {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.footer-items h4 {
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1.6rem;
+}
+
+.footer-addr h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.footer-btn {
+  border: 2px solid #000;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  width: 360px;
+  height: 45px;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  border-radius: 100px;
+}
+
+.legal {
+  width: 80%;
+  margin: auto;
+  min-height: 8vh;
+  align-items: center;
+  font-size: 12px;
+}
+
+.headline h1 {
+  font-size: 22px;
+  padding-top: 30px;
 }
